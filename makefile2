@@ -1,4 +1,3 @@
-
 CC = g++
 
 objects = main_executable
@@ -7,6 +6,7 @@ all: $(objects)
 
 
 $(objects): *.hpp
-	$(CC) -o $@ *.cpp
+        $(CC) -o $@ *.cpp
 clean:
-	rm $(objects)
+        rm $(objects)
+
